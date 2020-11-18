@@ -16,6 +16,7 @@
     />
     <!-- <i class="material-icons">face</i> -->
   </head>
+  <!-- https://super.abril.com.br/wp-content/uploads/2019/01/sapo_site.png" -->
   <body>
     <header class="container-fluid py-2">
       <div class="container d-flex justify-content-between align-items-center">
@@ -36,25 +37,20 @@
     <main>
       <div class="container">
         <div
-          id="carouselExampleCaptions"
+          id="carouselExampleControls"
           class="carousel slide"
           data-ride="carousel"
-          data-interval="pause"
-          style="max-height: 400px"
         >
-          <div
-            class="carousel-inner d-flex align-items-center"
-            style="max-height: 400px"
-          >
+          <div class="carousel-inner">
             <div class="carousel-item active">
               <img
                 src="https://super.abril.com.br/wp-content/uploads/2019/01/sapo_site.png"
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="">
-                <h2 class="font-weight-bold">Sapo Cururu</h2>
-                <p class="h4">R$ 50,00</p>
+              <div class="carousel-caption">
+                <h5>Sapo cururu</h5>
+                <p>R$ 20,00</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -64,8 +60,8 @@
                 alt="..."
               />
               <div class="carousel-caption">
-                <h2 class="font-weight-bold">Sapo Cururu</h2>
-                <p class="h4">R$ 50,00</p>
+                <h5>Sapo cururu</h5>
+                <p>R$ 20,00</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -75,14 +71,14 @@
                 alt="..."
               />
               <div class="carousel-caption">
-                <h2 class="font-weight-bold">Sapo Cururu</h2>
-                <p class="h4">R$ 50,00</p>
+                <h5>Sapo cururu</h5>
+                <p>R$ 20,00</p>
               </div>
             </div>
           </div>
           <a
             class="carousel-control-prev"
-            href="#carouselExampleCaptions"
+            href="#carouselExampleControls"
             role="button"
             data-slide="prev"
           >
@@ -91,7 +87,7 @@
           </a>
           <a
             class="carousel-control-next"
-            href="#carouselExampleCaptions"
+            href="#carouselExampleControls"
             role="button"
             data-slide="next"
           >
@@ -100,10 +96,11 @@
           </a>
         </div>
       </div>
+
       <div class="container mt-5">
         <h3 class="mb-0 mb-md-2">Ofertas especiais</h3>
         <div class="row d-flex flex-wrap justify-content-between">
-          <div class="my-card mt-3 mt-md-0 col-12 col-sm-6 col-md-3">
+          <div class="my-card mt-3 mt-md-0 col-6 col-md-3">
             <img
               src="https://cdn.britannica.com/s:575x450/93/96193-004-72EB1703.jpg"
               alt=""
@@ -111,7 +108,7 @@
             <h4>Algum produto</h4>
             <span>Preço R$ 4,00</span>
           </div>
-          <div class="my-card mt-3 mt-md-0 col-12 col-sm-6 col-md-3">
+          <div class="my-card mt-3 mt-md-0 col-6 col-md-3">
             <img
               src="https://cdn.britannica.com/s:575x450/93/96193-004-72EB1703.jpg"
               alt=""
@@ -119,7 +116,7 @@
             <h4>Algum produto</h4>
             <span>Preço R$ 4,00</span>
           </div>
-          <div class="my-card mt-3 mt-md-0 col-12 col-sm-6 col-md-3">
+          <div class="my-card mt-3 mt-md-0 col-6 col-md-3">
             <img
               src="https://cdn.britannica.com/s:575x450/93/96193-004-72EB1703.jpg"
               alt=""
@@ -127,7 +124,7 @@
             <h4>Algum produto</h4>
             <span>Preço R$ 4,00</span>
           </div>
-          <div class="my-card mt-3 mt-md-0 col-12 col-sm-6 col-md-3">
+          <div class="my-card mt-3 mt-md-0 col-6 col-md-3">
             <img
               src="https://cdn.britannica.com/s:575x450/93/96193-004-72EB1703.jpg"
               alt=""
@@ -138,6 +135,52 @@
         </div>
       </div>
     </main>
+
+    <footer class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-sm">
+          <img
+            class="ml-5"
+            id="footer-logo"
+            src="./src/assets/images/logo-solo.svg"
+            alt=""
+          />
+        </div>
+        <div class="col-sm">
+          <div class="address pl-5 pl-md-0">
+            <span>Endereço</span>
+            <br />
+            <br />
+            <span>Rua X 1234, Bairro Vila Piloto, 432</span>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="contact pl-5 pl-md-0">
+            <div class="contact-item">
+              <img
+                src="./src/assets/images/facebookLogo.svg"
+                alt="FacebookLogo"
+              />
+              <span>/amarildo-mercados</span>
+            </div>
+            <div class="contact-item">
+              <img
+                src="./src/assets/images/twitterLogo.svg"
+                alt="FacebookLogo"
+              />
+              <span>@amarildomercados</span>
+            </div>
+            <div class="contact-item">
+              <img
+                src="./src/assets/images/instagramLogo.svg"
+                alt="FacebookLogo"
+              />
+              <span>@amarildomercados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 
   <!-- Optional JavaScript -->
@@ -157,4 +200,10 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"
   ></script>
+
+  <script>
+    $(".carousel").carousel({
+      interval: 500000,
+    });
+  </script>
 </html>
